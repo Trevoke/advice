@@ -20,6 +20,6 @@ var day = String(date.getDay()).padStart(2, '0');
 
 var seed = year + month + day;
 
-adviceIndex = Math.ceil(mulberry32(seed)() * advice.length);
+adviceIndex = Math.floor(mulberry32(seed)() * advice.length);
 
 console.log(advice[adviceIndex]);
