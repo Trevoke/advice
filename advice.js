@@ -16,7 +16,7 @@ var advice = [
 var date = new Date();
 var year = String(date.getFullYear());
 var month = String(date.getMonth()).padStart(2, '0');
-var day = String(date.getaDy()).padStart(2, '0');
+var day = String(date.getDay()).padStart(2, '0');
 
 var seed = year + month + day;
 
