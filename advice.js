@@ -50,3 +50,5 @@ var index = dayTimestamp % advice.length;
 function loadAdvice() {
   document.getElementById("advice").innerHTML = advice[index];
 }
+
+document.onload(loadAdvice);
