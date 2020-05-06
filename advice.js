@@ -47,4 +47,4 @@ var dayTimestamp = Math.floor(new Date() / 1000);
 
 var index = dayTimestamp % advice.length;
 
-console.log(advice[index]);
+document.getElementById("advice").innerHTML = advice[index];
