@@ -1,4 +1,6 @@
-var advice = [
+var stag = {};
+
+stag.advice = [
   "don't forget to breathe",
   "be joyfully curious",
   "make it safe to fail, then play",
@@ -43,14 +45,12 @@ var advice = [
   "It is the mark of an educated mind to be able to entertain a thought without accepting it. - Aristotle"
 ];
 
-var dayTimestamp = Math.floor(new Date() / 1000000);
+stag.dayTimestamp = Math.floor(new Date() / 1000000);
 
-var index = dayTimestamp % advice.length;
+stag.index = stag.dayTimestamp % stag.advice.length;
 
 function loadAdvice() {
-  document.getElementById("advice").innerHTML = advice[index];
+  document.getElementById("advice").innerHTML = stag.advice[stag.index];
 }
 
-// document.onload = loadAdvice;
-
-$('#advice').textContent = advice[index];
+document.onload = loadAdvice;
