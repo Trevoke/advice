@@ -51,4 +51,4 @@ function loadAdvice() {
   document.getElementById("advice").innerHTML = advice[index];
 }
 
-document.onload(loadAdvice);
+document.onload = loadAdvice;
