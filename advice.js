@@ -53,4 +53,4 @@ function loadAdvice() {
   document.getElementById("advice").innerHTML = stag.advice[stag.index];
 }
 
-document.onload = loadAdvice;
+window.onload = loadAdvice;
