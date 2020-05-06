@@ -45,7 +45,7 @@ stag.advice = [
   "It is the mark of an educated mind to be able to entertain a thought without accepting it. - Aristotle"
 ];
 
-stag.dayTimestamp = Math.floor(new Date() / 1000000);
+stag.dayTimestamp = Math.floor(new Date() / 86400000);
 
 stag.index = stag.dayTimestamp % stag.advice.length;
 
