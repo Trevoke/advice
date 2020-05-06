@@ -43,7 +43,7 @@ var advice = [
   "It is the mark of an educated mind to be able to entertain a thought without accepting it. - Aristotle"
 ];
 
-var dayTimestamp = new Date() / 1000;
+var dayTimestamp = Math.floor(new Date() / 1000);
 
 var index = dayTimestamp % advice.length;
 
