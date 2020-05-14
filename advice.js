@@ -20,6 +20,7 @@ stag.advice = [
   "the strike of the pickaxe which humiliates the prisoner isn't the same strike of the pickaxe as the prospector's, which grows them",
   "Spend two weeks learning LISP. When you understand it, you'll be a better programmer forever",
   "“Do not seek to follow in the footsteps of the wise; seek what they sought.” - Basho",
+  "Copy the questions, not the answers.",
   "develop a shared language with your team",
   "If it ain't broke, don't fix it. But define what it means for it to ain't be broke. And measure.",
   "What you can't measure, you can't manage. However, beware the trap of managing a measure.",
@@ -43,7 +44,20 @@ stag.advice = [
   "Too much freedom can be a bad thing. Tell a kid to go play outside and they may sit there blankly, but give them a stick and say “this is a sword” and they’ll create a world around it. Structure and boundaries, well executed, give you freedom to create and deliver.",
   "Small minds discuss people. Average minds discuss events. Great minds discuss ideas.",
   "It is the mark of an educated mind to be able to entertain a thought without accepting it. - Aristotle",
-  "Once you believe you have reached mastery, you have stepped off the path you should be on."
+  "Once you believe you have reached mastery, you have stepped off the path you should be on.",
+  "Any uniform good is a great evil.",
+  "A quest for certainty is the enemy of the quest towards truth.",
+  "It is not about you. Whatever that other person does, it's about them and their situation.",
+  "The world is not as I would prefer it.",
+  "The only 'done' is death",
+  "eat the world!",
+  "We are always alone, we are never alone.",
+  "In love and anger, 'never' and 'always' mean 'Right now.'",
+  "Bye! I believe in you!",
+  "Sometimes it is OK to be not OK.",
+  "See how many different things you can say 'thank you' for today.",
+  "The bigger the impact, the slower the change.",
+  "People are terrible, but they are also silly, and this is wonderful. Software is mostly just terrible."
 ];
 
 stag.dayTimestamp = Math.floor(new Date() / 86400000);
