@@ -43,7 +43,8 @@ stag.advice = [
   "Too much freedom can be a bad thing. Tell a kid to go play outside and they may sit there blankly, but give them a stick and say “this is a sword” and they’ll create a world around it. Structure and boundaries, well executed, give you freedom to create and deliver.",
   "Small minds discuss people. Average minds discuss events. Great minds discuss ideas.",
   "It is the mark of an educated mind to be able to entertain a thought without accepting it. - Aristotle",
-  "Once you believe you have reached mastery, you have stepped off the path you should be on."
+  "Once you believe you have reached mastery, you have stepped off the path you should be on.",
+  "There is nothing worse than doing the wrong thing efficiently."
 ];
 
 stag.dayTimestamp = Math.floor(new Date() / 86400000);
