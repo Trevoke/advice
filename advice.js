@@ -44,7 +44,8 @@ stag.advice = [
   "Small minds discuss people. Average minds discuss events. Great minds discuss ideas.",
   "It is the mark of an educated mind to be able to entertain a thought without accepting it. - Aristotle",
   "Once you believe you have reached mastery, you have stepped off the path you should be on.",
-  "There is nothing worse than doing the wrong thing efficiently."
+  "There is nothing worse than doing the wrong thing efficiently.",
+  "We are what we repeatedly do. Excellence, then, is not an act, but a habit. - Aristotle",
 ];
 
 stag.dayTimestamp = Math.floor(new Date() / 86400000);
