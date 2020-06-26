@@ -47,6 +47,7 @@ stag.advice = [
   "There is nothing worse than doing the wrong thing efficiently.",
   "We are what we repeatedly do. Excellence, then, is not an act, but a habit. - Aristotle",
   "We make progress towards our goals when they both have intention and attention.",
+  "By the inch it’s a cinch. By the mile takes a while.",
 ];
 
 stag.dayTimestamp = Math.floor(new Date() / 86400000);
