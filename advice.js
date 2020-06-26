@@ -46,6 +46,7 @@ stag.advice = [
   "Once you believe you have reached mastery, you have stepped off the path you should be on.",
   "There is nothing worse than doing the wrong thing efficiently.",
   "We are what we repeatedly do. Excellence, then, is not an act, but a habit. - Aristotle",
+  "We make progress towards our goals when they both have intention and attention.",
 ];
 
 stag.dayTimestamp = Math.floor(new Date() / 86400000);
